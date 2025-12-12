@@ -4,7 +4,9 @@ Public, manually curated SHA-256 verification ledger for proof-of-existence, aut
 
 This repository is a public, manually curated SHA-256 verification ledger.
 
-It exists to provide proof-of-existence, authorship attribution, and tamper-evident integrity for original intellectual artifacts authored by Michael Murray Hepler (AllChemicalBeatz) under the MH8 / Acbeatz.com umbrella.
+It exists to provide proof-of-existence, authorship attribution, and tamper-evident integrity for original intellectual artifacts authored under the MH8 / Acbeatz.com umbrella.
+
+A. To provide a simple, transparent, and independently verifiable record of proof-of-existence, authorship, and integrity for original intellectual artifacts published under Acbeatz.com. Each entry records a canonical text or artifact description together with a deterministic SHA-256 hash, allowing any third party to manually verify that a given work existed in a specific form at or before the published timestamp. The system is intentionally blockchain-free, server-free, and dependency-free: verification requires only the published hash input and standard SHA-256 tooling. This repository serves as a public, append-only witness and secondary mirror to the primary mint page, ensuring claims remain auditable, reproducible, and tamper-evident over time.
 
 Each ledger entry contains:
 - A canonical text or artifact description (`core_entry`)
